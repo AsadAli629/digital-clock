@@ -1,0 +1,92 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #faf8f8;
+}
+
+h2 {
+    pad: 30px 0px;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    color: #faf8f8;
+    text-transform: uppercase;
+    /* background-color: #00b2cb; */
+    z-index: 1;
+    display: block;
+    padding: 10px;
+    filter: drop-shadow(3px 3px 3px #26c6de);
+    opacity: 0.5;
+}
+
+.time {
+    display: inline-block;
+    position: relative;
+    margin: 10px;
+
+}
+
+.time span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-reflect: below 3px linear-gradient(transparent, transparent, rgb(130, 121, 121));
+}
+
+.time span:nth-child(1) {
+    height: 50px;
+    width: 180px;
+    color: #faf8f8;
+    background-color: #008c9e;
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.time:nth-of-type(2) span:nth-child(1) {
+    background-color: #6fba0a;
+}
+
+.time:nth-of-type(3) span:nth-child(1) {
+    background-color: #c54800;
+}
+
+.time:nth-of-type(4) span:nth-child(1) {
+    background-color: #22a568;
+}
+
+.time span:nth-child(2) {
+    width: 180px;
+    height: 150px;
+    font-size: 90px;
+    font-weight: 700;
+    color: #faf8f8;
+    background-color: #00b2cb;
+}
+
+.time:nth-of-type(2) span:nth-child(2) {
+    background-color: #8ee80e;
+}
+
+.time:nth-of-type(3) span:nth-child(2) {
+    background-color: #ff5d00;
+}
+
+.time:nth-of-type(4) span:nth-child(2) {
+    background-color: #2ad587;
+}
